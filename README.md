@@ -1,2 +1,11 @@
-# ISYS90069-Team-ProjectTut-1-Group-1--Sentina
-Sentina is a perinatal mental health platform that detects early signs of maternal depression by combining weekly EPDS screening, passive wearable monitoring, and infant record linkage to coordinate timely care across patients, clinicians, MCH nurses, and public health teams.
+
+  # Sentina
+
+  This is a code bundle for Sentina. The original project is available at https://www.figma.com/design/K9jzuyaTs5tZzO3dq7VofX/Sentina.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
