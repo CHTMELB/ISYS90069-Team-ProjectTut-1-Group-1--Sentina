@@ -81,6 +81,43 @@ patient application, MCH nurse portal, and infant My Health Record.
 
 ---
 
+## Wireframe Mockups
+
+Sentina ships three coordinated front-ends — a patient mobile app, a clinician dashboard,
+and an MCH nurse portal — all driven by the same FHIR R4 data layer.
+
+### Patient Application (React Native)
+
+A calm, privacy-first mobile experience: onboarding, wearable linking, weekly EPDS
+check-ins with safety-net escalation, and a direct line to the care team.
+
+<p align="left">
+  <img src="docs/wireframes/patient-welcome.png" alt="Patient — welcome" width="22%" />
+  <img src="docs/wireframes/patient-wearable.png" alt="Patient — connect wearable" width="22%" />
+  <img src="docs/wireframes/patient-checkin.png" alt="Patient — weekly check-in" width="22%" />
+  <img src="docs/wireframes/patient-messages.png" alt="Patient — care-team messages" width="22%" />
+</p>
+
+### Clinician Dashboard (React.js)
+
+A caseload overview that separates active EPDS alerts from passive wearable signals, and a
+per-patient detail view combining risk, passive monitoring, infant flags, and care plans.
+
+![Clinician — My Patients overview](docs/wireframes/clinician-patients.png)
+
+![Clinician — patient detail](docs/wireframes/clinician-patient-detail.png)
+
+### MCH Nurse Portal (React.js)
+
+An infant surveillance dashboard surfacing flags raised when maternal risk stays elevated,
+with developmental-assessment actions written back to the maternal care team via FHIR.
+
+![MCH nurse — infant surveillance dashboard](docs/wireframes/mch-infant-surveillance.png)
+
+The full set of wireframes is documented in Appendices B–D of the project report.
+
+---
+
 ## Technology Stack
 
 | Layer | Technology |
